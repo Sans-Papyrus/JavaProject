@@ -10,15 +10,15 @@ public class GuessNumber {
         System.out.println(randomNumber);
         System.out.println("请输入的您要猜的数字:");
 
-        int numGuess = sc.nextInt();
-        while (numGuess != randomNumber) {
-            if (numGuess > randomNumber) {
-                System.out.println("猜大了");
+        int num = sc.nextInt();
+        while (num != randomNumber) {
+            if (num > randomNumber) {
+                System.out.println("sorry,猜大了!");
             } else {
-                System.out.println("猜小了");
+                System.out.println("sorry,猜小了");
             }
-            System.out.println("请输入您要猜的数字:");
-            numGuess = sc.nextInt();
+            System.out.print("请输入您要猜的数字:");
+            num = sc.nextInt();
         }
         System.out.println("恭喜您猜对了!!");
     }
