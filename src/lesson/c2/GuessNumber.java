@@ -15,11 +15,12 @@ public class GuessNumber {
             if (num > randomNumber) {
                 System.out.println("sorry,猜大了!");
             } else {
-                System.out.println("sorry,猜小了");
+                System.out.println("sorry,猜小了!");
             }
             System.out.print("请输入您要猜的数字:");
             num = sc.nextInt();
         }
         System.out.println("恭喜您猜对了!!");
+
     }
 }

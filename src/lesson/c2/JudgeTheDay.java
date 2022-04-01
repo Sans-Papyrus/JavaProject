@@ -11,11 +11,11 @@ public class JudgeTheDay {
             case 3:
             case 4:
             case 5:
-                System.out.println("加油，打工人!");
+                System.out.println("今天是工作日");
                 break;
             case 6:
             case 7:
-                System.out.println("今天可以摸摸鱼了。");
+                System.out.println("今天是休息日");
                 break;
             default:
                 System.out.println("不存在星期" + numDay);
